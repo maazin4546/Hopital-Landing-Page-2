@@ -8,7 +8,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row justify-center px-4 md:px-8 bg-white">
 
             {/* Card 1 */}
-            <div className="bg-blue-950 flex flex-col md:flex-row items-start md:items-center w-1/4 md:w-1/3 px-6 py-6 shadow-lg">
+            <div className="bg-blue-950 flex flex-col md:flex-row items-start md:items-center md:w-1/3 px-6 py-6 shadow-lg">
                 <div className="pt-2">
                     <FaHelicopter fontSize={30} color="white" />
                 </div>
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-blue-900 flex flex-col md:flex-row items-start md:items-center w-1/4 md:w-1/3 px-6 py-6 shadow-lg">
+            <div className="bg-blue-900 flex flex-col md:flex-row items-start md:items-center md:w-1/3 px-6 py-6 shadow-lg">
                 <div className="pt-2">
                     <RiCalendarScheduleFill fontSize={30} color="white" />
                 </div>
@@ -41,7 +41,7 @@ const Services = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-sky-600 flex flex-col md:flex-row items-start md:items-center w-1/4 md:w-1/3 px-6 py-6 shadow-lg">
+            <div className="bg-sky-600 flex flex-col md:flex-row items-start md:items-center md:w-1/3 px-6 py-6 shadow-lg">
                 <div className="pt-2">
                     <LuNotepadText fontSize={30} color="white" />
                 </div>
