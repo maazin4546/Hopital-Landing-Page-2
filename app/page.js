@@ -7,6 +7,11 @@ import Departments from "@/Components/Departments"
 import Doctors from "@/Components/Doctors"
 import QualityCare from "@/Components/QualityCare"
 import Appointment from "@/Components/Appointment"
+import Records from "@/Components/Records"
+import Features from "@/Components/Features"
+import Thank from "@/Components/Thank"
+import News from "@/Components/News"
+import Footer from "@/Components/Footer"
 
 const page = () => {
   return (
@@ -20,6 +25,11 @@ const page = () => {
       <Doctors/>
       <QualityCare/>
       <Appointment/>
+      <Records/>
+      <Features/>
+      <Thank/>
+      <News/>
+      <Footer/>
     </div>
   )
 }

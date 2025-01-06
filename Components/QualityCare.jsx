@@ -1,6 +1,5 @@
 import { Quality_data } from "@/lib/data";
 
-
 const QualityCare = () => {
     return (
         <div className='bg-sky-500 mt-12'>
@@ -26,7 +25,7 @@ const QualityCare = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center gap-4 mt-8">
+            <div className="flex flex-wrap justify-center items-center gap-4 mt-8">
                 {Quality_data.map((item, index) => (
                     <div key={index} className='bg-white flex w-64 p-4 h-40'>
                         <div className='mt-4'>
@@ -43,4 +42,4 @@ const QualityCare = () => {
     )
 }
 
-export default QualityCare
+export default QualityCare;

@@ -39,10 +39,10 @@ const Carousel = () => {
 
                     {/* Content overlay */}
                     <div className="absolute inset-0 flex flex-col justify-center items-start bg-black/30 px-8 md:px-32">
-                        <h1 className="text-gray-200 text-2xl w-full md:w-[60%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
+                        <h1 className="text-blue-950 text-2xl w-full md:w-[60%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
                             We Take Care of Your Healthy Life
                         </h1>
-                        <p className="text-sm md:text-lg text-gray-300 w-full md:w-[45%] mb-6">
+                        <p className="text-sm md:text-lg text-blue-950 w-full md:w-[45%] mb-6">
                             MedDoctors are a Medical and Health Department provider institution. Suitable for Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health, and any related medical care field.
                         </p>
                         <div className="flex mt-6 space-x-4">
@@ -71,10 +71,10 @@ const Carousel = () => {
 
                     {/* Content overlay */}
                     <div className="absolute inset-0 flex flex-col justify-center items-start bg-black/30 px-8 md:px-32">
-                        <h1 className="text-gray-200 text-2xl w-full md:w-[50%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
+                        <h1 className="text-blue-950 text-2xl w-full md:w-[50%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
                             Best Doctor & Medical Care
                         </h1>
-                        <p className="text-sm md:text-lg text-gray-200 w-full md:w-[45%] mb-6">
+                        <p className="text-sm md:text-lg text-blue-950 w-full md:w-[45%] mb-6">
                             MedDoctors are a Medical and Health Department provider institution. Suitable for Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health, and any related medical care field.
                         </p>
                         <div className="flex mt-6 space-x-4">
@@ -103,10 +103,10 @@ const Carousel = () => {
 
                     {/* Content overlay */}
                     <div className="absolute inset-0 flex flex-col justify-center items-start bg-black/30 px-8 md:px-32">
-                        <h1 className="text-gray-200 text-2xl w-full md:w-[50%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
+                        <h1 className="text-blue-950 text-2xl w-full md:w-[50%] md:text-5xl font-bold mb-4 leading-[40px] md:leading-[60px]">
                             Care Whenever You Need It
                         </h1>
-                        <p className="text-sm md:text-lg text-gray-300 w-full md:w-[45%] mb-6">
+                        <p className="text-sm md:text-lg text-blue-950 w-full md:w-[45%] mb-6">
                             MedDoctors provide a wide range of healthcare services tailored to meet your needs. From general checkups to specialized treatments, we ensure you receive the best care.
                         </p>
                         <div className="flex mt-6 space-x-4">
