@@ -4,7 +4,7 @@ import { FaCheckDouble } from "react-icons/fa";
 
 const DocInfo = () => {
   return (
-    <div className="bg-white flex justify-center items-center min-h-screen px-4 md:px-8 pt-12 md:pt-16">
+    <div id='about' className="bg-white flex justify-center items-center min-h-screen px-4 md:px-8 pt-12 md:pt-16">
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
         {/* First Div */}
         <div className="flex flex-col relative p-4 md:p-0">

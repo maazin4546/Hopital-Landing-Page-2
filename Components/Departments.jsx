@@ -5,9 +5,19 @@ import { Cards_data } from '@/lib/data';
 const Departments = () => {
     return (
         // <div className='bg-sky-700 h-[621px] md:h-[478px]'>
-        <div className='bg-sky-700'>
-            <div className="flex flex-col md:flex-row justify-start md:justify-around px-4 md:px-8 pt-12 md:pt-16 space-y-6 md:space-y-0 md:space-x-8">
-                {/* First Div */}
+        <div
+            id='department'
+            className="relative bg-sky-700 bg-cover bg-center"
+            style={{
+                backgroundImage: `url('/assets/feature6.jpg')`,
+            }}
+        >
+
+            {/* Overlay to adjust the opacity of the background image */}
+            <div className="absolute inset-0 bg-blue-950 opacity-80"></div>
+
+            <div className="relative z-10 flex flex-col md:flex-row justify-start md:justify-around px-4 md:px-8 pt-12 md:pt-16 space-y-6 md:space-y-0 md:space-x-8">
+
                 <div className="text-left">
                     <p className="text-sky-500 font-medium">Best Department!</p>
                     <h1 className="text-white text-3xl md:text-4xl font-bold mt-2">
@@ -15,7 +25,7 @@ const Departments = () => {
                     </h1>
                 </div>
 
-                {/* Second Div */}
+
                 <div className="text-left md:w-1/2 space-y-4">
                     <p className="text-white">
                         Meddox Are A Medical And Health Department Provider Institutions. Suitable
@@ -28,7 +38,7 @@ const Departments = () => {
                 </div>
             </div>
 
-            <div className='flex flex-wrap p-4 md:p-0 justify-center md:items-center gap-4 mt-16'>
+            <div className='relative flex flex-wrap p-4 md:p-0 justify-center md:items-center gap-4 mt-16'>
                 {Cards_data.map((item, index) => (
                     <div key={index} className='flex flex-col'>
                         <div className='flex bg-white w-80 p-6'>

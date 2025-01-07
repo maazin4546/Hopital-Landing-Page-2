@@ -3,8 +3,7 @@ import { FaEye, FaLink } from "react-icons/fa";
 
 const Features = () => {
     return (
-        <div>
-
+        <div id='page'>
             <div className="flex flex-col md:flex-row justify-start md:justify-around p-4 px-4 md:px-8 pt-12 md:pt-16 space-y-6 md:space-y-0 md:space-x-8">
                 <div className="text-left">
                     <p className="text-sky-500 font-medium">Feature's Gallery</p>

@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <div className='bg-blue-900'>
+        <div id='contact' className='bg-blue-950'>
             <div className='py-8 flex flex-col md:flex-row gap-3 md:gap-0 justify-center md:justify-around items-center'>
                 <h1 className='text-xl text-white font-semibold'>Subscribe To Our Newsletter</h1>
                 <div className="flex flex-col gap-3 md:gap-0 md:flex-row items-center">
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <hr className="border-t-1 border-blue-300" />
+            <hr className="border-t-1 border-blue-800" />
 
             <div className='mt-12 flex flex-wrap flex-col md:flex-row justify-start ml-8 md:ml-0 gap-12 md:gap-0 md:justify-around items-start pb-6'>
                 <div>
@@ -32,17 +32,17 @@ const Footer = () => {
                             alt='logo'
                             className='cursor-pointer'
                         />
-                        <h1 className='text-4xl text-white font-bold ml-3'>Meddox</h1>
+                        <h1 className='text-4xl text-white font-bold ml-1'>Meddox</h1>
                     </div>
-                    <div className='w-72 my-6'>
-                        <p className='text-white text-sm leading-[30px]'>Meddox Are A Medical And Health Department Provider Institutions. Suitable For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+                    <div className='w-full md:w-80 my-6'>
+                        <p className='text-white leading-[30px]'>Meddox Are A Medical And Health Department Provider Institutions. Suitable For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
                     </div>
 
                     <div className='flex gap-2'>
-                        <FaFacebookF fontSize={30} color='skyBlue' className='bg-white p-2 rounded-md' />
-                        <FaTwitter fontSize={30} color='skyBlue' className='bg-white p-2 rounded-md' />
-                        <FaInstagram fontSize={30} color='skyBlue' className='bg-white p-2 rounded-md' />
-                        <FaWhatsapp fontSize={30} color='skyBlue' className='bg-white p-2 rounded-md' />
+                        <FaFacebookF fontSize={30} className="bg-white p-2 rounded-md cursor-pointer group text-sky-500 hover:bg-sky-500 hover:text-white transition duration-300" />
+                        <FaTwitter fontSize={30} className="bg-white p-2 rounded-md cursor-pointer group text-sky-500 hover:bg-sky-500 hover:text-white transition duration-300" />
+                        <FaInstagram fontSize={30} className="bg-white p-2 rounded-md cursor-pointer group text-sky-500 hover:bg-sky-500 hover:text-white transition duration-300" />
+                        <FaWhatsapp fontSize={30} className="bg-white p-2 rounded-md cursor-pointer group text-sky-500 hover:bg-sky-500 hover:text-white transition duration-300" />
                     </div>
                 </div>
 
@@ -93,7 +93,7 @@ const Footer = () => {
             </div>
 
 
-            <div className='flex flex-col md:flex-row gap-4 md:gap-0 pl-4 md:pl-0 justify-around bg-blue-950 py-8'>
+            <div className='flex flex-col md:flex-row gap-4 md:gap-0 pl-4 md:pl-0 justify-around bg-blue-900 py-8'>
                 <p className='text-white'>@2025 Meddox. With Love By BravisThemes</p>
                 <div className='flex gap-3'>
                     <Link href={"/"} className='text-white hover:text-blue-500 text-sm'>Terms & Conditions</Link>

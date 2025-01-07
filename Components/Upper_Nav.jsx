@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Upper_Nav = () => {
     return (
-        <div className='md:flex hidden justify-around items-center bg-blue-900 p-2 text-white'>
+        <div id="home" className='md:flex hidden justify-around items-center bg-blue-900 p-2 text-white'>
             <div className='flex'>
                 <div className='flex items-center mx-4'>
                     <MdOutlineMail fontSize={22} className='mx-2 cursor-pointer'/>

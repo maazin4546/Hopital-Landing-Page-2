@@ -12,6 +12,8 @@ import Features from "@/Components/Features"
 import Thank from "@/Components/Thank"
 import News from "@/Components/News"
 import Footer from "@/Components/Footer"
+import BackToTop from "@/Components/GoToTop"
+
 
 const page = () => {
   return (
@@ -29,6 +31,7 @@ const page = () => {
       <Features/>
       <Thank/>
       <News/>
+      <BackToTop/>
       <Footer/>
     </div>
   )

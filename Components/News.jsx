@@ -10,7 +10,7 @@ import Link from "next/link"
 
 const News = () => {
     return (
-        <div>
+        <div id="blog">
             <div className="flex flex-col md:flex-row justify-start md:justify-around p-4 px-4 md:px-8 pt-12 md:pt-16 space-y-6 md:space-y-0 md:space-x-8">
                 <div className="text-left">
                     <p className="text-sky-500 font-medium">Recent News</p>
@@ -36,7 +36,6 @@ const News = () => {
                     <CarouselContent className="w-full">
                         {News_data.map((items, index) => {
                             const { imgUrl, title, desc, tag1, tag2 } = items;
-
                             return (
                                 <CarouselItem
                                     key={index}
